@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương</title>
+</head>
+<body>
+<!--document.write('<table border="1" cellspacing="0">')-->
+<!--    document.write('<tr>')-->
+<!--        document.write('<td>')-->
+<!--            document.write('</td>')-->
+<!--        document.write('<br>')-->
+<!--        document.write('</tr>')-->
+<!--    document.write('</td>')-->
+<!--    document.write('</table>-->
+<script>
+    document.write('<table border="1">')
+    for (let j = 1; j < 10; j++) {
+        document.write('<tr>')
+        for (let i = 2; i < 11; i++) {
+            document.write('<td>')
+            document.write(i + ' x ' + j + ' = ' + i * j)
+            document.write('</td>')
+        }document.write('</tr>')
+    }
+
+
+    document.write('</table>')
+</script>
+</body>
+</html>
